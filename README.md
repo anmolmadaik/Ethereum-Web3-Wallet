@@ -1,16 +1,9 @@
-# ethereumweb3wallet
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Crypto Wallet App for Ethereum BlockChain built with Flutter using Provider as State Management. developers.cryptoapis.io API is used to get information on tokens and perform transactions on Ethereum Blockchain in goerli network.
+Functionalities include:
+ -> Create a New Wallet
+ -> Get Existing Wallet Details and use it(Balance, BlockChain, Network)
+ -> Generate a New Address in the Wallet
+ -> Get Existing Address Details and use it(Balance, Label)
+ -> Perform transactions, send and receive coins on Ehereum Goerli Network
+ -> Show Transaction History of the Wallet, along with transaction details
+ -> Show List of Tokens associated with an Address, along with Token Details
